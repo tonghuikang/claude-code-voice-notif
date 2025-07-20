@@ -1,0 +1,1 @@
+openai[voice-helpers]>=1.93.0

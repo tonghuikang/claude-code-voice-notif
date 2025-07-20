@@ -1,0 +1,27 @@
+{
+  "includeCoAuthoredBy": false,
+  "hooks": {
+    "Notification": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run python3 .claude/audio_launcher.py"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run python3 .claude/audio_launcher.py"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,7 +1,1 @@
-.venv/
-*.egg-info/
-*.log
-logs/*_results.json
-*.pkl
-models/
-.mypy_cache/
+grind.egg-info/*
