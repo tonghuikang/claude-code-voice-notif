@@ -1,0 +1,19 @@
+[project]
+name = "grind"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    "openai[voice-helpers]>=1.93.0",
+]
+
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = []
+
+[dependency-groups]
+dev = [
+    "ruff>=0.12.1",
+]
