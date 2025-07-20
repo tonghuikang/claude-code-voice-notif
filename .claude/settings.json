@@ -7,7 +7,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "uv run python3 .claude/audio_launcher.py"
+            "command": "say requesting permissions &"
           }
         ]
       }
@@ -18,7 +18,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "uv run python3 .claude/audio_launcher.py"
+            "command": "say operation complete &"
           }
         ]
       }
